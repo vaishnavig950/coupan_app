@@ -13,6 +13,7 @@ This is a simple coupon service that manages coupon codes with repeat count func
   - Global Total Repeat Count
 - Verify coupon validity against defined limits.
 - Apply coupons while enforcing the defined limits.
+- Status of a particular coupan and details who used it till now. (Additonal feature)
 
 ## Setup
 
@@ -33,7 +34,7 @@ This is a simple coupon service that manages coupon codes with repeat count func
 To run the test suite, execute the following command in your terminal:
 
 ```bash
-npm test
+npm run test
 ```
 
 ## Usage Instructions 
@@ -148,7 +149,7 @@ curl -X POST 'http://localhost:8080/api/coupons/apply' \
 }
 ```
 
-### 4. Apply Coupon
+### 4. Coupan Status
 **Endpoint**: `POST /api/coupons/status`
 
 **Curl Command**:
